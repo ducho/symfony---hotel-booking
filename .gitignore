@@ -1,0 +1,32 @@
+# Dependecies
+/node_modules/
+/vendor/
+
+# Builds
+/web/
+app/Resources/index.html
+
+/app/bootstrap.php.cache
+/app/cache/*
+# using .env so no need to ignore /app/config/parameters.yml
+/app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+/app/phpunit.xml
+/build/
+/bin/
+/composer.phar
+npm-debug.log
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+.c9
+
+#dotenv
+.env
+
+# backups
+*~
